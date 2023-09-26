@@ -45,13 +45,12 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">stagetest</value>
-    <value name="createdDate">1695730076266</value>
-    <value name="lastModifiedDate">1695730076266</value>
+    <value name="lastModifiedBy">stagetest</value>
+    <value name="lastModifiedDate">1695732399847</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">b3503ecd7d964d24841a005bf7b18b6e</value>
-      <null name="group"/>
-      <value name="name">vidi26Sep</value>
+      <value name="id">5bb7f6e281754fe899bced10b8c3e79f</value>
+      <value name="group">default</value>
+      <value name="name">vidiSep26</value>
     </record>
     <value name="displayName">Test</value>
     <value name="description"></value>
@@ -69,6 +68,7 @@
           <value name="serviceName">pub.date:getCurrentDate</value>
           <value name="transformerSupport">true</value>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
