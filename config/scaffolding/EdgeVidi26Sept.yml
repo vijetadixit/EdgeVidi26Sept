@@ -10,6 +10,14 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.560
+- serviceName: edge.vidi26sept.integrations:T1
+  packages:
+  - name: EdgeVidi26Sept
+    version: "1.0"
+- serviceName: pub.string:toUpper
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
 packages:
 - name: EdgeVidi26Sept
   gitServerName: vidi26Sep
