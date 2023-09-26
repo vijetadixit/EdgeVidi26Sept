@@ -18,6 +18,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.560
+- serviceName: edge.vidi26sept.integrations:T3
+  packages:
+  - name: EdgeVidi26Sept
+    version: "1.0"
 packages:
 - name: EdgeVidi26Sept
   gitServerName: vidi26Sep
